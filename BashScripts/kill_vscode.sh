@@ -1,0 +1,1 @@
+kill -SIGTERM $(ps -aux | grep <user> | grep .vscode | awk '{print $2}')
